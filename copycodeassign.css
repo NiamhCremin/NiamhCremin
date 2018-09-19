@@ -1,0 +1,32 @@
+h1{
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "monospace" , serif;
+  background-color: #F06449;
+  text-align:center;
+}
+
+.intro {
+  text-align: left;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  margin: auto;
+  font-family: "Open Sans" , sans-serif;
+  text-align: center;
+  width: 80%;
+  border: 1px;
+  padding: 12px;
+  background-color: #CBEDE9;
+}
+.first{
+  text-align: center;
+  font-size: 4em;
+  font-family: "Helvetica" , sans-serif;
+  color: #ffffff;
+  background-color: #FE9920;
+}
