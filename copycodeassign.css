@@ -2,7 +2,7 @@ h1{
   color: #ffffff;
   font-size: 2.5rem;
   font-family: "Opens Sans" , sans-serif;
-  background-color: #D4B2FF;
+  background-color: #B64EFF;
   text-align:center;
 }
 
@@ -38,5 +38,11 @@ p{
 
 img {
   width: 50%;
-  border: 2;
+  border: 2px solid;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2px 5px;
+  background-color: #FCF9FF;
 }
