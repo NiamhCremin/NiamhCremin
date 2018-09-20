@@ -41,8 +41,8 @@ img {
 }
 
 ul {
+  color: #080708;
   list-style-type: none;
-  padding: 2px 5px;
+  padding: 2px 3px;
   background-color: #FCF9FF;
-  text-decoration-color: #080708;
 }
