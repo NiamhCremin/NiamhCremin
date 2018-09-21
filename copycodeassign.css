@@ -37,12 +37,19 @@ p{
 
 img {
   width: 50%;
-  border: 2px solid #B64EFF;
+  border:0;
 }
 
-ul {
-  color: #080708;
+ul{
   list-style-type: none;
   padding: 2px 3px;
-  background-color: #FCF9FF;
+  background-color: #B64EFF;
+  font-weight: bold;
+}
+
+a {
+  color: #080708;
+}
+a:hover {
+   color: #080708;
 }
