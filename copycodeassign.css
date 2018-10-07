@@ -28,10 +28,12 @@ ul{
   padding: 2px 3px;
   background-color: #B64EFF;
   font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.first{
-  list-style-type: none;
+.first {
   text-align: center;
   font-size: 4em;
   font-family: "Helvetica" , sans-serif;
