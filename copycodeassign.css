@@ -14,7 +14,9 @@ img {
   width:75%;
   border: 0;
 }
-
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0 auto;
   font-family: "Open Sans" , sans-serif;
@@ -22,6 +24,12 @@ body {
   width: 80%;
   border: 1px;
   background-color: #D4B2FF;
+}
+.container {
+	display: flex;
+  height: 200px;
+  align-content: space-between;
+	flex-direction: column-reverse;
 }
 .first{
   text-align: center;
@@ -53,7 +61,6 @@ a {
 a:hover {
    color: #080708;
 }
-
 /* =================================
   Flexbox
 ==================================== */
