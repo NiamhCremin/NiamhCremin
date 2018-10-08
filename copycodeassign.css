@@ -25,17 +25,14 @@ body {
   list-style-type: none;
 }
 .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-
+	display: flex;
+	flex-direction: column;
 }
   ul{
   padding: 2px 3px;
   background-color: #B64EFF;
   font-weight: bold;
+  list-style-type: none;
 }
 
 .first {
@@ -57,7 +54,15 @@ img {
 
 a {
   color: #080708;
+  text-decoration: none;
 }
 a:hover {
    color: #080708;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }
