@@ -30,13 +30,18 @@ body {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.container li{
+  background-color: #f1b82b;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
   ul{
   padding: 2px 3px;
   background-color: #B64EFF;
   font-weight: bold;
   list-style-type: none;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .first {
