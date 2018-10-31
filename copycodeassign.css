@@ -27,12 +27,16 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
   ul{
   padding: 2px 3px;
   background-color: #B64EFF;
   font-weight: bold;
   list-style-type: none;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .first {
