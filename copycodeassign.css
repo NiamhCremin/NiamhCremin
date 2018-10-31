@@ -29,8 +29,8 @@ body {
 	flex-direction: column;
   display:grid;
   grid-template-columns: 1fr 2fr 1fr 1fr;
-  grid-column-gap: : 35px;
-  grid-row-gap: 40px;
+  grid-column-gap: : 35px #ffffff;
+  grid-row-gap: 40px #ffffff;
 }
 
 .item2{
