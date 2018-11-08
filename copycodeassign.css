@@ -24,6 +24,58 @@ body {
   background-color: #D6A8A5;
   list-style-type: none;
 }
+
+nav ul{
+  display: block;
+  border-top: 2px #79896D solid;
+}
+
+nav a{
+  color: #ffffff;
+  display:block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+header{
+
+}
+
+
+.menu-triger{
+  order: 1;
+  font-size: 1.75em;
+  width:2em;
+}
+
+header h1{
+  order:2;
+  font-size:2em;
+}
+
+nav ul{
+  display:none;
+}
+
+@media screen and (min-width:700px){
+  nav ul{
+    display:flex;
+  }
+  nav ul li{
+    border-top: none;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
+  nav{
+    order:2;
+  }
+
+  header h1{
+    order:1;
+  }
+
 .container {
 	display: flex;
 	flex-direction: column;
