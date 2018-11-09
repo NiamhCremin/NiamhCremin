@@ -4,6 +4,19 @@ h1{
   font-family: "Opens Sans" , sans-serif;
   background-color: #B64EFF;
   text-align:center;
+  display:flex;
+  flex-flow:row;
+}
+
+.menu-triger{
+  order: 1;
+  font-size: 1.75em;
+  width:2em;
+}
+
+header h1{
+  order:2;
+  font-size:2em;
 }
 
 .intro {
@@ -35,22 +48,6 @@ nav a{
   display:block;
   text-decoration: none;
   padding: 20px 30px;
-}
-
-header{
-
-}
-
-
-.menu-triger{
-  order: 1;
-  font-size: 1.75em;
-  width:2em;
-}
-
-header h1{
-  order:2;
-  font-size:2em;
 }
 
 nav ul{
