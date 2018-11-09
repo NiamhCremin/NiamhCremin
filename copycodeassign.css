@@ -25,7 +25,7 @@ body {
   list-style-type: none;
 }
 
-nav ul{
+nav ul li{
   display: block;
   border-top: 2px #79896D solid;
 }
