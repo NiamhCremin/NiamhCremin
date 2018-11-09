@@ -19,6 +19,10 @@ header h1{
   font-size:2em;
 }
 
+nav ul{
+  display:none;
+}
+
 .intro {
   text-align: left;
 }
@@ -48,10 +52,6 @@ nav a{
   display:block;
   text-decoration: none;
   padding: 20px 30px;
-}
-
-nav ul{
-  display:none;
 }
 
 @media screen and (min-width:700px){
